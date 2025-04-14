@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+.dark-bg {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    height: 100vh;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #ff4d4d; /* Rojo brillante */
+    text-shadow: 0 0 10px rgba(255, 77, 77, 0.5);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: #ccc;
+}
+
+/* Botones personalizados */
+.btn-custom {
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-red {
+    background-color: #ff4d4d; /* Rojo principal */
+    color: white;
+}
+
+.btn-red:hover {
+    background-color: #ff1a1a; /* Rojo más oscuro al hover */
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(255, 77, 77, 0.4);
+}
+
+.btn-dark-red {
+    background-color: #990000; /* Rojo oscuro */
+    color: white;
+}
+
+.btn-dark-red:hover {
+    background-color: #660000; /* Rojo más intenso */
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(153, 0, 0, 0.4);
+}
+
+/* Estilos para archivo de entrada */
+input[type="file"].form-control {
+    background-color: #1e1e1e;
+    color: #fff;
+    border: 1px solid #ff4d4d;
+}
+
+/* Área de resultado */
+#resultado {
+    background-color: #1e1e1e;
+    color: #00ffcc;
+    border: 1px solid #ff4d4d;
+    resize: none;
+}
+
+/* Efecto de partículas (opcional) */
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
